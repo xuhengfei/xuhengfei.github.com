@@ -8,7 +8,7 @@ nav-name: Notebook
 ---
 
 <div class="columns-2 post-list-excerpt">
-	<h3>Recent Entries</h3>
+	<h3>最近的文章</h3>
 	
 	<div class="col">
 		<ol>
@@ -40,7 +40,7 @@ nav-name: Notebook
 	
 </div>
 
-<h3>All Entries</h3>
+<h3>所有的文章</h3>
 <div class="full post-list">
 	<ol>
 		{% for post in site.posts %}
