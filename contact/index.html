@@ -1,0 +1,55 @@
+---
+layout: default
+title: Contact
+excerpt: 如何联系我
+
+nav-weight: 5
+nav-name: Contact
+
+header: '<!-- Contact Validation -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/contact/validator.js"></script>'
+---
+
+<section class="columns-2">
+
+	<div class="col">
+		<p>目前在淘宝工作</p>
+
+		<p>你可以通过以下方式联系我 </p>
+
+		<ul>
+			<li><a href="https://github.com/xuhengfei" title="Follow me on GitHub">GitHub</a></li>
+		</ul>
+		
+	</div><!-- /.col -->
+
+	<div class="col">
+		<form action="/contact/contact.php" method="post">
+			<dl>
+				<dt><label for="name">Name</label></dt>
+				<dd><input type="text" name="name" id="name" /></dd>
+			</dl>
+	
+			<dl>
+				<dt><label for="email">Email</label></dt>
+				<dd><input type="email" name="email" id="email" /></dd>
+			</dl>
+	
+			<dl>
+				<dt><label for="subject">Subject</label></dt>
+				<dd><input type="text" name="subject" id="subject" /></dd>
+			</dl>
+	
+			<dl class="textarea">
+				<dt><label for="message">Message</label></dt>
+				<dd><textarea name="message" id="message"></textarea></dd>
+			</dl>
+	
+			<div class="buttons">
+				<input type="submit" value="Submit" />
+			</div>
+		</form>
+	</div><!-- /.col -->
+
+</section><!-- /.coluns-2 -->
