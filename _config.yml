@@ -10,7 +10,7 @@ markdown: redcarpet
 
 permalink: /notebook/:year/:month/:title
 pagination: 6
-url: http://danielgroves.net
+url: http://xuhengfei.github.io
 
 maruku:
     use_tex: false
