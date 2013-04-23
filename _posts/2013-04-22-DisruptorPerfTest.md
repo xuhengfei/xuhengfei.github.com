@@ -21,7 +21,7 @@ JDK: 1.6.0_43
 Disruptor	ArrayQueue	LinkedQueue	SyncQueue  
 8355.4373	449.445	    126.493	    529.5291  
 
-<img src="assets/images/articles/disruptor/1p1c.png" />
+<img src="/assets/images/articles/disruptor/1p1c.png" />
 场景分析：  
 Disruptor吞吐量比Queue高出20倍左右  
 关键原因应该是Queue在读写时用到了锁，而Disruptor没有使用锁  
@@ -31,7 +31,7 @@ Disruptor吞吐量比Queue高出20倍左右
 2C	7687.2447	169.0777	212.732	    248.2842  
 4C	3295.4343	24.5359	    21.6052	    3.4345  
 
-<img src="assets/images/articles/disruptor/1pnc.png" />
+<img src="/assets/images/articles/disruptor/1pnc.png" />
 场景分析：
 Disruptor的吞吐量仍然以超高的倍数领先Queue
 
