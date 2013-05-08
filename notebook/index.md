@@ -23,20 +23,6 @@ nav-name: Notebook
 		</ol>
 	</div>
 	
-	<div class="col">
-		<ol start="6">
-			{% for post in site.posts %}
-				{% if forloop.index > 5 %}
-					{% if forloop.index <= 10 %}
-						<li>
-							<a href="{{ site.base_url }}{{ post.url }}"><strong>{{post.title}}</strong></a> <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span><br />
-							<span class="excerpt">{{post.excerpt}}</span>
-						</li>
-					{% endif %}
-				{% endif %}
-			{% endfor %}
-		</ol>
-	</div>
 	
 </div>
 
