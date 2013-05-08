@@ -2,7 +2,7 @@ safe: false
 auto: false
 server: false
 server_port: 4000
-pygments: true
+pygments: false
 future: false
 lsi: false
 markdown: redcarpet
@@ -10,7 +10,7 @@ markdown: redcarpet
 
 permalink: /notebook/:year/:month/:title
 pagination: 6
-url: http://xuhengfei.github.io
+url: http://xuhengfei.com
 
 maruku:
     use_tex: false
