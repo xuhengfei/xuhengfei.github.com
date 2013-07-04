@@ -18,6 +18,7 @@ excerpt: iphone中的一个多图选取组件
 分别是拍照界面和相册选取界面。  
 
 这个组件的使用方式也非常简单：
+
 ```objective-c
 
 -(void)viewDidLoad{
