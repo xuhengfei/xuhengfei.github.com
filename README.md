@@ -1,3 +1,7 @@
+# Blog
+This is my blog source code  
+Welcome to visit my blog: [http://xuhengfei.com](http://xuhengfei.com)  
+
 # Source
 Blog Template Source from [Daniel Groves](https://github.com/danielgroves/danielgroves.net)
 This is the source for the current version of my portfolio. This may seem stagnent at times as I tend to keep development stuff privatly on my own GitLab install and only push changes over here when they go live on the site. 
