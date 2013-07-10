@@ -1,6 +1,7 @@
 ---
 layout: blog
-excerpt: 一个完善的Hadoop作业平台
+title: 宙斯调度系统开源啦
+excerpt: 宙斯：一个完善的Hadoop作业平台
 ---
 
 ###宙斯开源了  

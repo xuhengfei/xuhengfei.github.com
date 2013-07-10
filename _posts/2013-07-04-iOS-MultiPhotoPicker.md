@@ -1,6 +1,7 @@
 ---
 layout: blog
-excerpt: iphone中的一个多图选取组件
+title: iPhone中的多图选取组件
+excerpt: 能够从相册和摄像头选取照片，支持最多5张照片的选取
 ---
 
 5月份开始转岗做iOS手机App开发，第一个工作便是做一个相册+拍照的多图选取工具。  
