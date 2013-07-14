@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: iPhone中的多图选取组件
+category: tech
 excerpt: 能够从相册和摄像头选取照片，支持最多5张照片的选取
 ---
 

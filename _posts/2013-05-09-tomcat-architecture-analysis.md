@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Tomcat 架构分析(转)
+category: tech
 excerpt: 
 ---
 

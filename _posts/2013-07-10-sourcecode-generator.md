@@ -1,5 +1,6 @@
 ---
 layout: blog
+category: tech
 title: 对源码生成程序的一些偏见
 excerpt: 公司内部有人投入开发源码生成程序，吐槽一下
 ---

@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: GWT中对不同浏览器兼容性实现原理
+category: tech
 excerpt: 
 ---
 

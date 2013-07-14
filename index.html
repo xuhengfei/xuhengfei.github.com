@@ -21,28 +21,32 @@ header: '<!-- Contact Validation -->
 <section class="columns-3">
 				
 	<article class="col">
-		<h2>Design</h2>
-		<div class="wrap">
-			<p>待完成</p>
-		</div>
-	</article>
-				
-	<article class="col">
-		<h2>Code</h2>
-		<div class="wrap">
-			<p>待完成</p>
-		</div>
-	</article>
-				
-	<div class="col">
-		<h2>Writing</h2>
+		<h2>技术文章</h2>
 		<ol>
-			{% for post in site.posts limit: 5 %}
+			{% for post in site.categories.tech limit: 5 %}
 				{% if forloop.index > 0 %}
 					<li><a href="{{ site.base_url }}{{ post.url }}">{{post.title}}</a> <span>{{ post.date | date: "%d/%m/%Y" }}</span></li>
 				{% endif %}
 			{% endfor %}
 		</ol>
+	</article>
+				
+	<article class="col">
+		<h2>生活随笔</h2>
+		<ol>
+			{% for post in site.categories.live limit: 5 %}
+				{% if forloop.index > 0 %}
+					<li><a href="{{ site.base_url }}{{ post.url }}">{{post.title}}</a> <span>{{ post.date | date: "%d/%m/%Y" }}</span></li>
+				{% endif %}
+			{% endfor %}
+		</ol>
+	</article>
+				
+	<div class="col">
+		<h2>专题系列</h2>
+		<div>
+			暂无专题
+		</div>
 	</div>
 				
 </section><!-- /.columns-3 -->

@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: 小米盒子
+category: live
 excerpt: 小米盒子使用体会
 ---
 前段时间搬家，租了个套房，离开了合租的日子。  

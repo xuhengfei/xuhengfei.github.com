@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: 推荐系统架构
+category: tech
 excerpt: 淘宝推荐系统从零到现在，完整的系统架构
 ---
 

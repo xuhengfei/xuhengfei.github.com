@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Disruptor性能测试
+category: tech
 excerpt: Disruptor性能测试
 ---
 
