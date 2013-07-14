@@ -1,8 +1,8 @@
-safe: false
-auto: false
+safe: true
+auto: true
 server: false
 server_port: 4000
-pygments: false
+pygments: true
 future: false
 lsi: false
 markdown: redcarpet
