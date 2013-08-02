@@ -17,7 +17,7 @@ Interactive是一个iOS上基础的网络层框架
 
 ***Mock***：Interactive内置支持数据的mock，可直接mock业务数据对象，而非仅仅是http返回的String
 
-***Reusable*** and Transferable：Interactive将请求和返回包装成一个Api，方便进行重用与移植
+***Reusable and Transferable*** ：Interactive将请求和返回包装成一个Api，方便进行重用与移植
 
 ***Plugin***：内置插件机制，可对请求进行前置后置处理，对调用者透明
 
