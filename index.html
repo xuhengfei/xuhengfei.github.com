@@ -44,9 +44,13 @@ header: '<!-- Contact Validation -->
 				
 	<div class="col">
 		<h2>专题系列</h2>
-		<div>
-			暂无专题
-		</div>
+		<ol>
+			{% for post in site.categories.topic limit: 5 %}
+				{% if forloop.index > 0 %}
+					<li><a href="{{ site.base_url }}{{ post.url }}">{{post.title}}</a> <span>{{ post.date | date: "%d/%m/%Y" }}</span></li>
+				{% endif %}
+			{% endfor %}
+		</ol>
 	</div>
 				
 </section><!-- /.columns-3 -->
