@@ -2,7 +2,7 @@
 layout: blog
 title: iOS中的线性布局
 category: tech
-excerpt: XHFLinearView 的使用
+excerpt: iOS中没有线性布局容器，自行开发了一个线性布局容器XHFLinearView，实现了线性布局功能，同时还提供了各种变化的动画效果
 --- 
 
 做iOS开发有几个月了，在开发的过程中，发现一个比较奇怪的问题，就是iOS里面几乎没有什么布局方式。
