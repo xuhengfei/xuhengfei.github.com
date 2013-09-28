@@ -54,14 +54,14 @@ TableView解决了动态计算相对坐标的问题。(TableView自身来处理�
     //force layout linear view
     [linearView needLayout];
     //insert a view with animation
-    [linearView insertItem:someView margin:XHFMarginMake(0, 0, 0, 0) atIndex:0 withAnimation:UITableViewRowAnimationFade];
+    [linearView insertItem:someView margin:XHFMarginMake(0, 0, 0, 0) atIndex:0 withAnimation:XHFLinearItemAnimationFade];
     //replace a view with animation
-    [linearView replaceItem:someView withNewItem:newView withAnimation:UITableViewRowAnimationFade];
+    [linearView replaceItem:someView withNewItem:newView withAnimation:XHFLinearItemAnimationFade];
     //resize a view with animation
     someView.frame=xxx;
     [linearView needLayoutForItem:someView];
     //remove a view with animation
-    [linearView removeItemByIndex:0 withAnimation:UITableViewRowAnimationFade];
+    [linearView removeItemByIndex:0 withAnimation:XHFLinearItemAnimationFade];
     
 ```
 
